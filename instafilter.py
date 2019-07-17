@@ -18,6 +18,7 @@ img_filter = img_filter.resize(size)
 #Split each image into RGB vectors
 r ,g ,b = base_img.split()
 R,G,B = img_filter.split()
+Rr,Gg,Bb=third.split()
 
 im= Image.merge("RGB",(R , g, b))
 im.show()
